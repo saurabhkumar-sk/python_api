@@ -1,0 +1,92 @@
+Python FastAPI Setup Notes (Mobile App API)
+
+------------------------------------------------
+1. Virtual Environment (venv)
+------------------------------------------------
+Command:
+python -m venv myenv
+
+What it does:
+- Creates a separate Python environment for your project
+- Keeps project dependencies isolated from system Python
+
+Simple meaning:
+Each project has its own Python space
+
+Why important:
+- Prevents package conflicts
+- Keeps system clean
+
+------------------------------------------------
+2. Activate Virtual Environment
+------------------------------------------------
+Command:
+myenv\Scripts\activate
+
+What it does:
+- Activates the virtual environment
+
+Simple meaning:
+You are now working inside the project environment
+
+------------------------------------------------
+3. Install FastAPI and Uvicorn
+------------------------------------------------
+Command:
+pip install fastapi uvicorn
+
+What it does:
+- FastAPI → Framework for building APIs
+- Uvicorn → Server to run FastAPI apps
+
+Simple meaning:
+Installs tools needed to build and run APIs
+
+------------------------------------------------
+4. Run the Server
+------------------------------------------------
+Command:
+uvicorn main:app --reload
+
+Breakdown:
+main → Python file name (main.py)
+app → FastAPI instance (app = FastAPI())
+--reload → Auto restart server on code changes
+
+What it does:
+- Starts local API server
+
+Open in browser:
+http://127.0.0.1:8000
+
+------------------------------------------------
+CORRECT FLOW (IMPORTANT)
+------------------------------------------------
+1. python -m venv myenv
+2. myenv\Scripts\activate
+3. pip install fastapi uvicorn
+4. uvicorn main:app --reload
+
+------------------------------------------------
+COMMON MISTAKES
+------------------------------------------------
+- Not activating venv
+- Missing FastAPI import
+- Wrong file name (main.py vs main)
+- Uvicorn not installed
+
+------------------------------------------------
+SIMPLE ANALOGY
+------------------------------------------------
+venv      → Separate project room
+pip install → Bring tools into room
+activate  → Enter the room
+uvicorn   → Start the server
+
+------------------------------------------------
+SUMMARY
+------------------------------------------------
+venv      → Isolated environment
+pip install → Install libraries
+uvicorn   → Run API server
+activate  → Enable environment
