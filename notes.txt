@@ -1,6 +1,8 @@
 Python FastAPI Setup Notes (Mobile App API)
 https://python-api-kq43.onrender.com
 uvicorn main:app --host 0.0.0.0 --port 10000
+
+pip freeze > requirements.txt
 ------------------------------------------------
 1. Virtual Environment (venv)
 ------------------------------------------------

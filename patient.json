@@ -1,104 +1,180 @@
 {
-  "patients": [
-    {
-      "id": 1,
-      "name": "Aarav Sharma",
-      "age": 28,
-      "gender": "Male",
-      "blood_group": "A+",
-      "disease": "Fever",
-      "phone": "9876543210",
-      "address": "Delhi, India"
-    },
-    {
-      "id": 2,
-      "name": "Priya Verma",
-      "age": 34,
-      "gender": "Female",
-      "blood_group": "B+",
-      "disease": "Diabetes",
-      "phone": "9876543211",
-      "address": "Mumbai, India"
-    },
-    {
-      "id": 3,
-      "name": "Rahul Singh",
-      "age": 45,
-      "gender": "Male",
-      "blood_group": "O+",
-      "disease": "Hypertension",
-      "phone": "9876543212",
-      "address": "Lucknow, India"
-    },
-    {
-      "id": 4,
-      "name": "Sneha Gupta",
-      "age": 22,
-      "gender": "Female",
-      "blood_group": "AB+",
-      "disease": "Anemia",
-      "phone": "9876543213",
-      "address": "Pune, India"
-    },
-    {
-      "id": 5,
-      "name": "Vikram Patel",
-      "age": 39,
-      "gender": "Male",
-      "blood_group": "A-",
-      "disease": "Asthma",
-      "phone": "9876543214",
-      "address": "Ahmedabad, India"
-    },
-    {
-      "id": 6,
-      "name": "Anjali Mehta",
-      "age": 30,
-      "gender": "Female",
-      "blood_group": "O-",
-      "disease": "Migraine",
-      "phone": "9876543215",
-      "address": "Jaipur, India"
-    },
-    {
-      "id": 7,
-      "name": "Karan Malhotra",
-      "age": 50,
-      "gender": "Male",
-      "blood_group": "B-",
-      "disease": "Heart Disease",
-      "phone": "9876543216",
-      "address": "Chandigarh, India"
-    },
-    {
-      "id": 8,
-      "name": "Pooja Nair",
-      "age": 26,
-      "gender": "Female",
-      "blood_group": "AB-",
-      "disease": "Thyroid",
-      "phone": "9876543217",
-      "address": "Kochi, India"
-    },
-    {
-      "id": 9,
-      "name": "Rohit Kumar",
-      "age": 33,
-      "gender": "Male",
-      "blood_group": "A+",
-      "disease": "Back Pain",
-      "phone": "9876543218",
-      "address": "Patna, India"
-    },
-    {
-      "id": 10,
-      "name": "Neha Joshi",
-      "age": 29,
-      "gender": "Female",
-      "blood_group": "O+",
-      "disease": "Skin Allergy",
-      "phone": "9876543219",
-      "address": "Bangalore, India"
-    }
-  ]
+    "patients": [
+        {
+            "id": 1,
+            "name": "Aarav Sharma",
+            "age": 28,
+            "gender": "Male",
+            "blood_group": "A+",
+            "disease": "Fever",
+            "phone": "9876543210",
+            "address": "Delhi, India",
+            "height": 172,
+            "weight": 70,
+            "bmi": 23.66,
+            "verdict": "Normal"
+        },
+        {
+            "id": 2,
+            "name": "Priya Verma",
+            "age": 34,
+            "gender": "Female",
+            "blood_group": "B+",
+            "disease": "Diabetes",
+            "phone": "9876543211",
+            "address": "Mumbai, India",
+            "height": 160,
+            "weight": 68,
+            "bmi": 26.56,
+            "verdict": "Overweight"
+        },
+        {
+            "id": 3,
+            "name": "Rahul Singh",
+            "age": 45,
+            "gender": "Male",
+            "blood_group": "O+",
+            "disease": "Hypertension",
+            "phone": "9876543212",
+            "address": "Lucknow, India",
+            "height": 175,
+            "weight": 80,
+            "bmi": 26.12,
+            "verdict": "Overweight"
+        },
+        {
+            "id": 4,
+            "name": "Sneha Gupta",
+            "age": 22,
+            "gender": "Female",
+            "blood_group": "AB+",
+            "disease": "Anemia",
+            "phone": "9876543213",
+            "address": "Pune, India",
+            "height": 158,
+            "weight": 50,
+            "bmi": 20.03,
+            "verdict": "Normal"
+        },
+        {
+            "id": 5,
+            "name": "Vikram Patel",
+            "age": 39,
+            "gender": "Male",
+            "blood_group": "A-",
+            "disease": "Asthma",
+            "phone": "9876543214",
+            "address": "Ahmedabad, India",
+            "height": 170,
+            "weight": 75,
+            "bmi": 25.95,
+            "verdict": "Overweight"
+        },
+        {
+            "id": 6,
+            "name": "Anjali Mehta",
+            "age": 30,
+            "gender": "Female",
+            "blood_group": "O-",
+            "disease": "Migraine",
+            "phone": "9876543215",
+            "address": "Jaipur, India",
+            "height": 162,
+            "weight": 55,
+            "bmi": 20.96,
+            "verdict": "Normal"
+        },
+        {
+            "id": 7,
+            "name": "Karan Malhotra",
+            "age": 50,
+            "gender": "Male",
+            "blood_group": "B-",
+            "disease": "Heart Disease",
+            "phone": "9876543216",
+            "address": "Chandigarh, India",
+            "height": 168,
+            "weight": 82,
+            "bmi": 29.05,
+            "verdict": "Overweight"
+        },
+        {
+            "id": 8,
+            "name": "Pooja Nair",
+            "age": 26,
+            "gender": "Female",
+            "blood_group": "AB-",
+            "disease": "Thyroid",
+            "phone": "9876543217",
+            "address": "Kochi, India",
+            "height": 155,
+            "weight": 60,
+            "bmi": 24.97,
+            "verdict": "Normal"
+        },
+        {
+            "id": 9,
+            "name": "Rohit Kumar",
+            "age": 33,
+            "gender": "Male",
+            "blood_group": "A+",
+            "disease": "Back Pain",
+            "phone": "9876543218",
+            "address": "Patna, India",
+            "height": 178.1,
+            "weight": 85,
+            "bmi": 26.83,
+            "verdict": "Overweight"
+        },
+        {
+            "id": 10,
+            "name": "Neha Joshi",
+            "age": 29,
+            "gender": "Female",
+            "blood_group": "O+",
+            "disease": "Skin Allergy",
+            "phone": "9876543219",
+            "address": "Bangalore, India",
+            "height": 165,
+            "weight": 58.03,
+            "bmi": 21.3,
+            "verdict": "Normal"
+        },
+        {
+            "name": "Saurabh",
+            "age": 20,
+            "gender": "MAle",
+            "blood_group": "B+",
+            "disease": "sdfaf",
+            "phone": "45465465465",
+            "address": {
+                "state": "Jaipur",
+                "city": "sdfa",
+                "pincode": "3212525"
+            },
+            "height": 40.0,
+            "weight": 40.0,
+            "bmi": 0.03,
+            "verdict": "Underweight",
+            "id": 11
+        },
+        {
+            "name": "Saurabh",
+            "age": 20,
+            "gender": "MAle",
+            "blood_group": "B+",
+            "disease": "sdfaf",
+            "phone": "45465465465",
+            "address": {
+                "state": "Jaipur",
+                "city": "sdfa",
+                "pincode": "3212525"
+            },
+            "height": 40.0,
+            "weight": 40.0,
+            "bmi": 0.03,
+            "verdict": "Underweight",
+            "id": 12
+        }
+    ]
 }
